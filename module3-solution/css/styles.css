@@ -39,17 +39,30 @@ body {
 #nav-list {
   margin-top: 10px;
 }
-#nav-list a {
+/*#nav-list a {
   color: #EBEBEB;
   background-color: #6784C1;
   text-align: center;
 }
+#nav-list a span {
+  font-size: 1.8em;
+}*/
+
+.navbar-default .navbar-nav > li > a {
+  color: #EBEBEB;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: #6784C1;
+}
+
 #nav-list a:hover {
   color: #6784C1;
   background: #EBEBEB;
 }
-#nav-list a span {
-  font-size: 1.8em;
+
+.navbar-default .navbar-toggle .icon-bar:hover {
+    color: #6784C1;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
